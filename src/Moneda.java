@@ -29,7 +29,7 @@ public class Moneda {
         return terms_of_use;
     }
 
-    public String getTime_last_update_unix() {
+    public int getTime_last_update_unix() {
         return time_last_update_unix;
     }
 
