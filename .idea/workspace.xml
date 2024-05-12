@@ -7,6 +7,9 @@
     <list default="true" id="32024e3c-20da-4c38-8b24-02755ba2b459" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ConsultaTasaDeCambio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConsultaTasaDeCambio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConversionRates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConversionRates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GeneradorDeArchivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeneradorDeArchivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moneda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,9 +30,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2gErDnSrSr3PhxJDg0zULomRrsS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -44,7 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/siste/OneDrive/Escritorio/Data Scientist/Oracle One/Especialización/Java/4. Consumir API, Escribir Archivos y Manejar Errores/2047-screenmatch4-Aula0",
+    "last_opened_file_path": "C:/Users/siste/OneDrive/Escritorio/Data Scientist/Oracle One/Desafíos/conversor-de-monedas-oracle-challenge",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2"
@@ -60,5 +63,16 @@
       <updated>1715273463501</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

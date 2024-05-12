@@ -1,3 +1,6 @@
+
+import java.util.Map;
+
 public class Moneda {
     private String result;
     private String documentation;
@@ -7,13 +10,12 @@ public class Moneda {
     private int time_next_update_unix;
     private String time_next_update_utc;
     private String base_code;
-    private String conversion_rates;
-    private String initialBaseCode;
+    private ConversionRates conversion_rates;
 
     //CONSTRUCTOR
-    public Moneda(String initialBaseCode,String base_code) {
-        this.initialBaseCode = initialBaseCode;
+    public Moneda(String base_code, ConversionRates conversion_rates) {
         this.base_code = base_code;
+        this.conversion_rates = conversion_rates;
     }
 
     //GETTERS
@@ -49,11 +51,7 @@ public class Moneda {
         return base_code;
     }
 
-    public String getConversion_rates() {
+    public ConversionRates getConversion_rates() {
         return conversion_rates;
-    }
-
-    public String getInitialBaseCode() {
-        return initialBaseCode;
     }
 }
