@@ -18,6 +18,9 @@ public class Moneda {
         this.conversion_rates = conversion_rates;
     }
 
+    public Moneda(double cantidad, String monedaBase, double cantidadConvertida, String monedaObjetivo) {
+    }
+
     //GETTERS
     public String getResult() {
         return result;

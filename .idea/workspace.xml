@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32024e3c-20da-4c38-8b24-02755ba2b459" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Prueba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ResultadoConversion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConsultaTasaDeCambio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConsultaTasaDeCambio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConversionRates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConversionRates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moneda.json" beforeDir="false" afterPath="$PROJECT_DIR$/moneda.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GeneradorDeArchivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeneradorDeArchivo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Moneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moneda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
@@ -21,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -44,6 +46,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Principal.executor": "Run",
+    "Application.Prueba.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",

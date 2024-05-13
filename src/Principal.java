@@ -4,18 +4,13 @@ import java.util.Scanner;
 public class Principal {
     public static void main(String[] args) throws IOException, InterruptedException {
         Scanner scanner = new Scanner(System.in);
-
-        String baseCode = "USD";
+        System.out.println("¿Qué moneda deseas convertir?");
+        String initialBaseCode = scanner.nextLine();
+        System.out.println("A qué moneda la deseas convertir?");
+        String baseCode = scanner.nextLine();
 
         ConsultaTasaDeCambio consulta = new ConsultaTasaDeCambio();
         GeneradorDeArchivo generador = new GeneradorDeArchivo();
-
-        System.out.println("¿Desea buscar la tasa de cambio para una moneda diferente? (si/no)");
-        String respuesta = scanner.nextLine();
-        if (respuesta.equalsIgnoreCase("si")) {
-            System.out.println("Ingrese el código de la moneda base:");
-            baseCode = scanner.nextLine();
-        }
 
         try {
             // Realizar la consulta a la API

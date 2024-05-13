@@ -10,7 +10,8 @@ import java.util.Map;
 
 public class ConsultaTasaDeCambio {
     public Moneda buscaMoneda(String base_code) throws IOException, InterruptedException {
-        URI direccion = URI.create("https://v6.exchangerate-api.com/v6/51e47a094093cfee2a89372c/latest/"
+        String apiKey = "51e47a094093cfee2a89372c";
+        URI direccion = URI.create("https://v6.exchangerate-api.com/v6/"+apiKey+"/latest/"
                 + base_code);
 
         HttpClient client = HttpClient.newHttpClient();
